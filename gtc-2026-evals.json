@@ -1,0 +1,172 @@
+{
+  "evals": [
+    {
+      "id": "eval_0",
+      "name": "AI Engineer Learning GenAI",
+      "description": "Test skill with intermediate AI engineer wanting to learn production GenAI techniques",
+      "user_input": {
+        "role": "AI Engineer",
+        "interests": ["Generative AI", "LLMs", "Production Deployment"],
+        "experience_level": "intermediate",
+        "primary_goal": "Learn production techniques and best practices",
+        "availability": "Full 5 days (March 15-19)",
+        "preferences": "Intensive learning, some networking",
+        "constraints": "None mentioned"
+      },
+      "expected_outputs": {
+        "includes_keynote": true,
+        "workshops_recommended": true,
+        "session_count_per_day": "4-6",
+        "networking_time_allocated": true,
+        "topics_covered": ["Generative AI", "LLMs", "Inference Optimization", "Fine-tuning"],
+        "format": "Day-by-day detailed itinerary"
+      },
+      "success_criteria": [
+        "Schedule includes keynote on March 16",
+        "At least 2 workshops recommended from March 15 offerings",
+        "Sessions balanced between core interests (GenAI, LLMs) and supporting areas (hardware, deployment)",
+        "Networking/booth time explicitly scheduled",
+        "Clear rationale provided for session selections",
+        "Backup options given for high-demand sessions"
+      ]
+    },
+    {
+      "id": "eval_1", 
+      "name": "Executive Scouting Agentic AI Opportunities",
+      "description": "Test skill with a VC/executive with limited time (2-3 days) scouting for opportunities",
+      "user_input": {
+        "role": "Venture Capitalist / Executive",
+        "interests": ["Agentic AI", "Enterprise Applications", "Hardware Roadmap"],
+        "experience_level": "beginner to intermediate",
+        "primary_goal": "Identify trends and investment opportunities",
+        "availability": "Partial - March 16-17 only (2 days)",
+        "preferences": "Survey of topics, high networking, executive briefings",
+        "constraints": "Limited time, need flexibility for meetings"
+      },
+      "expected_outputs": {
+        "includes_keynote": true,
+        "day_count": 2,
+        "session_count_per_day": "3-4",
+        "unstructured_time": "40-50% of schedule",
+        "networking_priority": "high",
+        "topics_covered": ["Agentic AI", "Enterprise Apps", "Hardware"],
+        "format": "Condensed 2-day itinerary with more white space"
+      },
+      "success_criteria": [
+        "Schedule acknowledges limited 2-day availability",
+        "Keynote (March 16) is primary anchor event",
+        "Topics span stated interests without overwhelming detail",
+        "Significant unstructured time for spontaneous networking",
+        "Includes recommendation for 'Connect with Experts' sessions",
+        "Suggests which booths/demos are must-sees",
+        "Format is executive-friendly (brief, actionable)"
+      ]
+    },
+    {
+      "id": "eval_2",
+      "name": "Student Exploring ML and Robotics",
+      "description": "Test skill with student wanting broad exposure and career guidance",
+      "user_input": {
+        "role": "Student (Undergraduate/Graduate)",
+        "interests": ["Machine Learning", "Computer Vision", "Robotics", "Career Exploration"],
+        "experience_level": "beginner to intermediate",
+        "primary_goal": "Explore ML/AI careers and learn from experts",
+        "availability": "Full 5 days (March 15-19)",
+        "preferences": "Mix of beginner-friendly sessions and hands-on workshops, heavy networking",
+        "constraints": "Budget-conscious (highlight free/included activities)"
+      },
+      "expected_outputs": {
+        "includes_bootcamps": true,
+        "beginner_sessions_ratio": "50%+",
+        "networking_emphasis": "high",
+        "career_resources": true,
+        "hands_on_workshops": true,
+        "format": "Beginner-friendly with clear rationale"
+      },
+      "success_criteria": [
+        "Recommends 2-3 beginner-focused boot camps",
+        "Balance of breadth (survey multiple topics) vs. depth",
+        "Includes 'Connect with the Experts' sessions recommendations",
+        "Highlights free/included networking events",
+        "Suggests career-focused sessions or panels",
+        "Recommends which booths have internship/job opportunities",
+        "Explains why each recommendation matters for career",
+        "Includes rest/break time (students often overcommit)"
+      ]
+    },
+    {
+      "id": "eval_3",
+      "name": "Conflict Resolution - Overlapping Sessions",
+      "description": "Test skill's ability to handle conflicts and recommend prioritization",
+      "user_input": {
+        "role": "ML Engineer",
+        "interests": ["LLMs", "Inference Optimization"],
+        "experience_level": "intermediate",
+        "primary_goal": "Deepen production AI skills",
+        "availability": "Full 5 days",
+        "preferences": "Deep dives, willing to skip some sessions for quality",
+        "special_request": "What if two of my top interests have overlapping sessions? How would you prioritize?"
+      },
+      "expected_outputs": {
+        "conflict_handling": true,
+        "prioritization_logic": "Clear reasoning",
+        "backup_suggestions": true,
+        "flexibility_demonstrated": true,
+        "format": "Explanation + alternative options"
+      },
+      "success_criteria": [
+        "Clearly identifies the conflict in provided schedule",
+        "Provides reasoning for which session to prioritize",
+        "Offers concrete backup/alternative sessions",
+        "Explains trade-offs (what you'd miss vs. what you'd gain)",
+        "Provides 2-3 alternative scheduling options",
+        "Suggests watching recordings if available post-conference"
+      ]
+    },
+    {
+      "id": "eval_4",
+      "name": "Hardware-Focused Engineer",
+      "description": "Test skill with GPU/systems engineer wanting deep hardware knowledge",
+      "user_input": {
+        "role": "Hardware/Systems Engineer",
+        "interests": ["GPU Architecture", "CUDA Optimization", "Hardware Roadmap"],
+        "experience_level": "intermediate to expert",
+        "primary_goal": "Learn latest GPU capabilities and optimization techniques",
+        "availability": "Full 5 days (March 15-19)",
+        "preferences": "Technical depth, less interest in business/enterprise talks",
+        "constraints": "Prefer morning sessions (late sleeper)"
+      },
+      "expected_outputs": {
+        "technical_focus": "high",
+        "morning_sessions_ratio": "80%+",
+        "expert_level_sessions": true,
+        "hands_on_labs": true,
+        "hardware_track_coverage": true,
+        "format": "Technical, detailed with architecture insights"
+      },
+      "success_criteria": [
+        "Recommends boot camps on CUDA optimization",
+        "Includes expert-level hardware sessions",
+        "Emphasizes hands-on labs and technical workshops",
+        "Most sessions front-loaded to morning slots",
+        "Includes hardware keynote/announcement times",
+        "Suggests booth demos with detailed hardware specs",
+        "Recommends expert connect sessions with NVIDIA hardware engineers",
+        "Includes GPU architecture deep-dives"
+      ]
+    }
+  ],
+  "evaluation_config": {
+    "total_evals": 5,
+    "scope": "Create mode - testing skill's ability to generate personalized itineraries",
+    "skill_path": "/mnt/user-data/outputs/gtc-2026-scheduler-skill.md",
+    "success_threshold": "At least 80% of success criteria met per eval",
+    "evaluation_method": "Human review + automated checks",
+    "notes": [
+      "Each eval tests different user persona and goal",
+      "Tests both simple (AI engineer) and complex (executive) scenarios",
+      "Includes conflict resolution and edge cases",
+      "Success depends on: clear schedule, aligned recommendations, realistic constraints"
+    ]
+  }
+}
